@@ -1,0 +1,26 @@
+{
+  "name": "node-cache-promised-fetch-get",
+  "description": "Have the .get() method of a cache object to return a promise that is resolved after asynchronously fetching a missing value.",
+  "version": "0.0.1",
+  "author": "Georgi Kostov <p_e_a@gbg.bg>",
+  "keywords": [
+    "cache",
+    "promise",
+    "fetch",
+    "get"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "mocha index.spec.js -R spec"
+  },
+  "main": "index.js",
+  "repository": "git://github.com/gkostov/node-cache-promised-fetch-get.git",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^7.2.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}
